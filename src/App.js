@@ -31,6 +31,7 @@ function App() {
   return (
     <CountContext.Provider value={{ countState: count, countDispatch: dispatch }}>
       <div className="App">
+        <h1>My website</h1>
         <p>{count}</p>
         <ComponentA />
         <ComponentB />
